@@ -1,0 +1,91 @@
+/*COLORS
+#DF2F7B magenta
+#9c1d4c wine 
+#932d7c morado 
+#7979a5 lavanda 
+#e6ccaa crema 
+#f8fac0 claro 
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #f8fac0 ;
+  background-color: #DF2F7B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #6c757d;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  margin: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Playfair Display', serif;
+  color: #f8fac0;
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #f8fac0;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #d63384 ;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #6c757d;
+
+}
+.navbar-header button.navbar-toggle {
+  margin: 25px;
+  
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+section {
+    border: 1px solid #98638B;
+    background-color: #98638B;
+    margin: 10px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #ffc107 ;
+  text-align: center;
+}
+
+p {
+  padding: 15px 15px 15px 15px;
+  color: #ffc107 ;
+}
+
+/* END MAIN CONTENT */
+
+
+ 
